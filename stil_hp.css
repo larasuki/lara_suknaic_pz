@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+ 	margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+body{
+	background-image:url("slike/pozadina1.jpg");
+	background-size: cover;
+	background-width:70%;
+	height: 100vh;
+	background-position: center;
+	color:#fff;
+	font-size:20px;
+}
+
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+	border-bottom:1px solid white;
+	background-color: rgba(224,224,224,0.39);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+	font-size: 25px;
+  float:left;
+  width:150px;
+  height:60px;
+  text-align:center;  
+}
+ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background:rgba(0,0,0,0.7)
+}
